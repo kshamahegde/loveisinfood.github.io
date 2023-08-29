@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with,device-width,initial scale 1.0">
+        <title>LOVE IS IN FOOD</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    </head>  <body>
+        <section class="main">
+            <nav>
+                    <a href="food.html"></a>
+                    <img src="loveis.jpg">
+                    <h1> @loveis__infood</h1>
+                    <div class=" nav-links" id="navLinks">
+                        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+
+                        <ul>
+                            <li><a href="#">HOME</a></li>
+                            <li><a href="https://www.instagram.com/loveis__infood/#">RECIPES</a></u></a></li>
+                            <li><a href="#">FOOD IMAGES</a></li>
+                           <li><a href="#">ABOUT US</a></li>
+                        </ul>
+                        
+                    </div>
+               
+                    <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+             </nav>
+             <div class="content">
+                <h1> EXPLORE THE RECIPES</h1>
+                <p>LIKE,SHARE,FOLLOW</p>
+                <a href=""class="hero-btn">WATCH MORE</a>
+                <a href="https://www.instagram.com/loveis__infood/#"class="hero-btn">FOLLOW</a>
+             </div>
+        </section>
+        
+        <section class="recipes">
+            
+            <h2>RECIPES</h2>
+            <div class="row">    
+                <div class="col">
+               <h3>Aloo Nuggets</h3>
+            <p>Wash the potatoes,boil them.Peel them off. Mash the boiled potatoes. Add red chilly powder,
+                salt, chat masala,chopped garlic, corn flour and bind into a dough. Make small balls
+                and deep fry them one by one in hot oil. Serve with ketchup.</p>
+                 </div>
+                 <div class="col">
+                    <img src="nuggets.jpg">
+                 </div>
+            
+            </div>
+            <div class ="row">
+                <div class="col">
+                    <h3>Lays Masala</h3>
+                    <p>Heat a tava. spread the lays over it. Put chopped onions, chopped tomatoes,
+                        grated cheese,sprinkle red chilly flakes ,oregano and salt. Heat for 2 minutes.
+                    </p>
+                </div> 
+                <div class="col">
+                    <img src="laysmasala.jpeg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3>Paneer Butter Masala</h3>
+                    <p>Heat a pan, add oil, clove, cinnamon, cardamom, green chillies, diced onions,
+                        diced tomatoes, ginger garlic paste. Add water and boil for 5 minutes. Cool down the mixturer
+                        and make a puree. Heat nother pan, add butter, salt,red chilly powder, diced paneer,
+                        fry the paneer and take it out. Then add more butter, onion-tomato puree, roasted paneer,
+                        200ml water and heat it. Lastly add fresh cream, corriander leaves. And serve hot with roti,naan.
+
+                    </p>
+                </div>
+                <div class="col">
+                    <img src="paneerbm.jpg">
+                </div>
+                 </div>
+        </section>
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu()
+            {
+                navLinks.style.right="-600px";
+            }
+            function hideMenu()
+            {
+                navLinks.style.right="-1200px";
+            
+            }
+        </script>
+
+    </body>
+</html>
