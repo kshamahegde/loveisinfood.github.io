@@ -162,7 +162,7 @@ margin-bottom: 5%;
             justify-content: left;
         }
         nav img{
-            width: 100px;
+            width: 150px;
             height:100px;
             text-align: left;
             
@@ -191,7 +191,7 @@ margin-bottom: 5%;
     position: absolute;
     background:  #6db6d8;
     height:150vh;
-    width:500px;
+    width:400px;
     top:0;
     right:-1000px;
     text-align: left;
